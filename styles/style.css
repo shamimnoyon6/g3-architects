@@ -1,0 +1,159 @@
+<css>
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1150px;
+    height: 80px;
+    margin: 0 auto;
+    padding: 0 25px;
+
+}
+
+nav>ul {
+    display: flex;
+    list-style: none;
+    gap: 50px;
+}
+
+body {
+    background-color: #FF900E1A;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* first page section  */
+.architect-title {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1150px;
+    margin: 0 auto;
+    margin-top: 102px;
+}
+
+.architect-btn {
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+    width: 180px;
+    height: 64px;
+    margin-top: 20px;
+}
+
+.banner-img img {
+
+    width: 100%;
+    max-width: 1150px;
+    height: 700px;
+    border-radius: 8px;
+
+    align-items: center;
+    margin-left: 105px;
+    margin-bottom: 20px;
+}
+
+/* feature section  */
+.features {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+    background-color: #ffffff;
+    margin: 0 auto;
+
+}
+
+.ft-img img {
+
+    width: 200px;
+    background-color: #fff;
+    margin-right: 150px;
+}
+
+.feature-img {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin: 0 auto;
+}
+
+/* top features  */
+.top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff;
+}
+
+.architect-image img {
+    width: 500px;
+    height: 700px;
+    background-color: #ffffff;
+}
+.top-title{
+    margin-left: 50px;
+}
+/* some facts  */
+.fact{
+    background-color: #fff;
+}
+.fact-title{
+    margin-left: 100px;
+}
+.fact-info{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+    
+}
+.fact-icon{
+    border-style: solid;
+    border-color: black;
+    width: 200px;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+    background-color:white;
+    margin-bottom: 100px;
+
+}
+
+/* sponsors  */
+.sponsor{
+    
+    background-color: #fff;
+}
+.faang-title{
+    margin: 0 auto;
+    margin-bottom: 40px;
+    margin-left: 100px;
+}
+.faang{
+    display: flex;
+    
+    align-items: center;
+    
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+/* copyright  */
+.copyright{
+    border-style: none;
+    height: 50px;
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 30px ;
+
+}
