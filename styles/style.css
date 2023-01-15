@@ -305,7 +305,10 @@ body {
     color: #727272;
     margin-bottom: 70px;
 }
-.fact-icon:hover{
+
+/* added transition hover effect  */
+
+.fact-icon:hover {
     background-color: lightcoral;
     cursor: grab;
 }
@@ -319,8 +322,8 @@ body {
 .sponsor {
 
     background-color: #fff;
-    padding-bottom:100px ;
-    
+    padding-bottom: 100px;
+
 }
 
 .faang-title {
@@ -362,44 +365,50 @@ body {
 }
 
 /* architecture design  */
-.section-archi{
+.section-archi {
     padding-bottom: 100px;
     background-color: #ffffff;
 }
-.archi{
+
+.archi {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
+
     background-color: #ffffff;
     padding: 20px;
 }
-.more-archi h2{
-     font-size: 35px;
-     font-weight: 700;
-     font-style: normal;
-     margin-bottom: 20px;
+
+.more-archi h2 {
+    font-size: 35px;
+    font-weight: 700;
+    font-style: normal;
+    margin-bottom: 20px;
 }
-.more-archi p{
+
+.more-archi p {
     font-size: 15px;
     font-weight: 400;
     font-style: normal;
     color: #727272;
     margin-bottom: 30px;
-    
+
 }
-.more-archi a:hover{
+
+.more-archi a:hover {
     color: hotpink;
     font-size: 15px;
     font-weight: 400;
     font-style: none;
-    
+
 }
-.archi-image{
+
+.archi-image {
     width: 100%;
     margin: 0 auto;
-    
+
 }
+
 /* copyright  */
 .copyright {
     border-style: none;
@@ -435,14 +444,15 @@ body {
     }
 } */
 @media only screen and (max-width: 668px) {
-    
-    .banner-img img{
+
+    .banner-img img {
         max-width: 100%;
         height: auto;
         align-items: center;
-        margin-left:2px ;
-        
+        margin-left: 2px;
+
     }
+
     .architect-title {
         display: flex;
         flex-direction: column;
@@ -455,6 +465,7 @@ body {
         gap: 50px;
         flex-direction: column;
     }
+
     nav {
 
         display: flex;
@@ -465,8 +476,9 @@ body {
         margin: 0 auto;
         padding: 0 25px;
         flex-direction: column;
-    
+
     }
+
     .feature-img {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
@@ -474,6 +486,7 @@ body {
         gap: 10px;
         width: 50%;
     }
+
     .features {
         display: flex;
         flex-direction: column;
@@ -481,8 +494,9 @@ body {
         gap: 5px;
         background-color: #ffffff;
         padding-top: 30px;
-    
+
     }
+
     .top {
         display: flex;
         flex-direction: column;
@@ -491,6 +505,7 @@ body {
         background-color: #ffffff;
         padding: 60px;
     }
+
     .architect-image .pic-btn {
         position: absolute;
         width: 180px;
@@ -503,15 +518,16 @@ body {
         padding: 70px;
         margin-left: 200px;
     }
+
     .fact-info {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         margin-top: 30px;
-    
+
     }
-    
+
     .faang {
         display: flex;
         flex-direction: column;
@@ -520,12 +536,13 @@ body {
         margin: 0 auto;
         margin-bottom: 100px;
     }
-    
+
     .faang-image {
         width: 200px;
         height: 50px;
         margin-bottom: 50px;
     }
+
     .faang-title {
         display: flex;
         flex-direction: column;
@@ -533,9 +550,10 @@ body {
         align-items: center;
         margin: 0 auto;
         margin-bottom: 40px;
-        
+
     }
-    .archi{
+
+    .archi {
         display: flex;
         flex-direction: column;
         align-items: center;
